@@ -1,6 +1,5 @@
 'use strict';
-import { PixelRatio } from 'react-native';
-import Dimensions from 'Dimensions';
+import { PixelRatio, Dimensions } from 'react-native';
 
 const { height: h, width: w } = Dimensions.get('window');
 const factor = w / 1000;
