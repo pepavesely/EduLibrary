@@ -34,15 +34,6 @@
       compile project(':react-native-edu-library')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNEduLibrary.sln` in `node_modules/react-native-edu-library/windows/RNEduLibrary.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Com.Reactlibrary.RNEduLibrary;` to the usings at the top of the file
-  - Add `new RNEduLibraryPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
 ```javascript
 import RNEduLibrary from 'react-native-edu-library';
