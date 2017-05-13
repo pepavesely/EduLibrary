@@ -185,6 +185,7 @@ export default class LinkPairTask extends Component {
         top: 0
       }
       this.setState({pos: lPos});
+      this._order[this._drawLeftIndex] = -1;
     } else {
       this._order[this._drawLeftIndex] = finalIndex;
     }
