@@ -9,6 +9,7 @@ import CheckBox from './app/components/checkbox';
 import CheckboxTask from './app/components/checkboxTask';
 import ImageButton from './app/components/imageButton';
 import ImageRiddlesTask from './app/components/imageRiddlesTask';
+import LinkPairTask from './app/components/linkPairTask';
 import ResizableImage from './app/components/resizableImage';
 import ResizableText from './app/components/resizableText';
 import TestTask from './app/components/testTask';
@@ -29,6 +30,7 @@ export {
   CheckboxTask,
   ImageButton,
   ImageRiddlesTask,
+  LinkPairTask,
   ResizableImage,
   ResizableText,
   TestTask,
