@@ -1,18 +1,16 @@
 
 {
   "name": "react-native-edu-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "react-native"
+    "react-component",
+    "react-native",
+    "android",
+    "ios"
   ],
-  "author": "",
-  "license": "",
-  "peerDependencies": {
-    "react-native": "^0.41.2"
-  }
+  "author": "Josef Vesely",
+  "nativePackage": true,
+  "license": ""
 }
