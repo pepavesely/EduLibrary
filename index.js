@@ -18,19 +18,38 @@ import { getCorrectFontSizeForScreen } from './app/utils/multiResolution';
 
 const { RNEduLibrary } = NativeModules;
 
-module.exports = RNEduLibrary;
-module.exports.ClickInfoTask = ClickInfoTask;
-module.exports.ClickInfoView = ClickInfoView;
-module.exports.DragDropTask = DragDropTask;
-module.exports.DraggableView = DraggableView;
-module.exports.DroppableView = DroppableView;
-module.exports.CheckBox = CheckBox;
-module.exports.CheckboxTask = CheckboxTask;
-module.exports.ImageButton = ImageButton;
-module.exports.ImageRiddlesTask = ImageRiddlesTask;
-module.exports.ResizableImage = ResizableImage;
-module.exports.ResizableText = ResizableText;
-module.exports.TestTask = TestTask;
-module.exports.VideoComponent = VideoComponent;
-module.exports.Responsive = Responsive;
-module.exports.getCorrectFontSizeForScreen = getCorrectFontSizeForScreen;
+export { 
+  RNEduLibrary,
+  ClickInfoTask,
+  ClickInfoView,
+  DragDropTask,
+  DraggableView,
+  DroppableView,
+  CheckBox,
+  CheckboxTask,
+  ImageButton,
+  ImageRiddlesTask,
+  ResizableImage,
+  ResizableText,
+  TestTask,
+  VideoComponent,
+  Responsive,
+  getCorrectFontSizeForScreen
+}
+
+// module.exports = RNEduLibrary;
+// module.exports.ClickInfoTask = ClickInfoTask;
+// module.exports.ClickInfoView = ClickInfoView;
+// module.exports.DragDropTask = DragDropTask;
+// module.exports.DraggableView = DraggableView;
+// module.exports.DroppableView = DroppableView;
+// module.exports.CheckBox = CheckBox;
+// module.exports.CheckboxTask = CheckboxTask;
+// module.exports.ImageButton = ImageButton;
+// module.exports.ImageRiddlesTask = ImageRiddlesTask;
+// module.exports.ResizableImage = ResizableImage;
+// module.exports.ResizableText = ResizableText;
+// module.exports.TestTask = TestTask;
+// module.exports.VideoComponent = VideoComponent;
+// module.exports.Responsive = Responsive;
+// module.exports.getCorrectFontSizeForScreen = getCorrectFontSizeForScreen;
