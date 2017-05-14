@@ -1,6 +1,10 @@
 {
   "name": "react-native-edu-library",
+<<<<<<< HEAD
   "version": "1.0.3",
+=======
+  "version": "1.0.1",
+>>>>>>> origin/master
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -11,8 +15,12 @@
   ],
   "author": "Josef Vesely",
   "nativePackage": true,
+<<<<<<< HEAD
   "license": "",
   "devDependencies": {
     "babel-preset-react-native": "^1.9.2"
   }
+=======
+  "license": ""
+>>>>>>> origin/master
 }
